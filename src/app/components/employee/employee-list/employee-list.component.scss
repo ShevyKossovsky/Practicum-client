@@ -1,0 +1,59 @@
+.table-container {
+  padding-top: 20px;
+    overflow: auto; 
+    margin: auto;
+
+  }
+table {
+    padding-top: 30px;
+    width: 80%;
+  }
+  
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+  .actions-cell {
+    white-space: nowrap; 
+  }
+  
+  .actions-cell div {
+    display: flex;
+    align-items: center;
+  }
+  .centered-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* גובה מלא של העמוד */ 
+  }
+.actions{
+  text-align: center;
+}
+   
+.addButton {
+  position: fixed;
+  z-index: 99;
+  bottom: 50px;
+  left: 50px;
+  border-radius: 50%; /* עיגול את קצוות הכפתור כך שיהיה עגול */
+  animation: pulse 2s infinite alternate; /* אנימציה תחזורית באופן חוזר */
+  box-shadow: 0 0 20px rgba(50, 61, 72, 0.5), /* צל מתאים לבועות */
+              0 0 20px rgba(0, 123, 255, 0.5), /* צל מתאים לבועות */
+              0 0 20px rgba(0, 123, 255, 0.5), /* צל מתאים לבועות */
+              0 0 20px rgba(0, 123, 255, 0.5); /* צל מתאים לבועות */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}

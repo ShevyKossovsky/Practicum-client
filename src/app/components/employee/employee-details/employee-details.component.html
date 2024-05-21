@@ -1,0 +1,31 @@
+<mat-card class="card-with-scroll">
+    <button mat-icon-button class="close-button" (click)="closeDialog()" aria-label="Close">
+        <mat-icon>close</mat-icon>
+    </button>
+
+    <mat-card-header>
+        <mat-card-title><strong><mat-icon>person</mat-icon> {{ data.employee.firstName }} {{ data.employee.lastName }} </strong></mat-card-title>
+        <mat-card-subtitle>ID Number: {{ data.employee.idNumber }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <p><strong><mat-icon>wc</mat-icon> Gender:</strong> {{ data.employee.gender }}</p>
+        <p><strong><mat-icon>event</mat-icon> Date of Birth:</strong> {{ data.employee.dateOfBirth | date }}</p>
+        <p><strong><mat-icon>work</mat-icon>Start of Work Date:</strong> {{ data.employee.employmentStartDate | date }}</p>
+
+        <div *ngIf="data.employee.positionsList.length > 0">
+            <h3>Positions:</h3>
+            <mat-accordion>
+                <mat-expansion-panel *ngFor="let position of data.employee.positionsList">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            {{ position.position.name }}
+                        </mat-panel-title>
+
+                    </mat-expansion-panel-header>
+                    <p><strong>Administrative:</strong> {{ position.isManagement ? 'Yes' : 'No' }}</p>
+                    <p><strong>Entry Date:</strong> {{ position.entryDate | date }}</p>
+                </mat-expansion-panel>
+            </mat-accordion>
+        </div>
+    </mat-card-content>
+</mat-card>

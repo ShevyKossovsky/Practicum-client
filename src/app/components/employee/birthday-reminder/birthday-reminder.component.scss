@@ -1,0 +1,21 @@
+/* birthday-reminder.component.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .employee-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .birthday-notification {
+    background-color: #4caf50; /* Green */
+    color: white;
+    text-align: center;
+  }
+  

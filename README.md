@@ -6,8 +6,10 @@
 
 ## Description
 
-This is the front end of the employee management application built using Angular v17. The application allows managing employee data, including adding, editing and deleting employees. You can also view the employee details or export them to the local computer.
-The app uses various external libraries, including Angular Material to enhance its user interface and provide a visually appealing experience.
+This is the front end of the employee management application built using Angular v17. The application allows managing employee data, including adding, editing, and deleting employees. You can also view the employee details or export them to the local computer.
+
+The app uses various external libraries, including Angular Material, to enhance its user interface and provide a visually appealing experience.
+
 
 ## Technologies Used
 

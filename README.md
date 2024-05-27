@@ -1,6 +1,9 @@
 # Employee Management Application - Client
 
-![Employee Management](/client/src/assets/screenShot.png)
+
+[Watch here->](https://employee-management-app-edf89.web.app/employees)
+
+![Employee Management](src\assets\screenShot.png)
 
 ## Description
 
@@ -29,4 +32,4 @@ The app uses various external libraries, including Angular Material to enhance i
 0556773361  
 s0556773361@gmail.com
 
-![Employee Management](/client/src/assets/screenShot_3.png)
+![Employee Management](src/assets/screenShot_3.png)

@@ -1,6 +1,7 @@
 # Employee Management Application - Client
 
 [Watch here->](https://employee-management-app-edf89.web.app/employees)
+<a href="https://employee-management-app-edf89.web.app/employees" target="_blank" title="לצפייה בפרויקט">Watch here-></a>
 
 ![Employee Management](src/assets/screenShot.png)
 
